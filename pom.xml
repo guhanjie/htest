@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>htest</groupId>
+	<artifactId>htest</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>htest</name>
+	<description>htest</description>
+
+	<dependencies>
+		<dependency>
+		  <groupId>com.pinganfu.linkhbase</groupId>
+		  <artifactId>linkhbase-common</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hbase</groupId>
+			<artifactId>hbase-client</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.101tec</groupId>
+			<artifactId>zkclient</artifactId>
+			<version>0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+			<version>2.5.3.pinganfu.1.0.1</version>
+		</dependency>
+	</dependencies>
+</project>
